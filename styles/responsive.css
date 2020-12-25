@@ -105,6 +105,9 @@
     .mobile ul ul{
         display: none;
     }
+    .rc img{
+        animation: landingImgMobile 1s;
+    }
     .footer{
         font-size: min(5vw,12px);
     }

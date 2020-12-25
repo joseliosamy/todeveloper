@@ -4,6 +4,7 @@ header{
     background-color: var(--header-color);
     display: flex;
     align-items: center;
+    animation: header 1s;
 }
 nav{
     width: 100%;
@@ -42,5 +43,8 @@ nav{
     margin-left: 25px;
 }
 .desktop ul ul{
+    display: none;
+}
+.mobile{
     display: none;
 }

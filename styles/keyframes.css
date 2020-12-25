@@ -1,0 +1,41 @@
+@keyframes header{
+    from{
+        transform: translateY(-60px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes landingImgMobile{
+    from{
+        transform: scale(0.8, 0.8);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+}
+
+@keyframes landingImg{
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes landingText{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

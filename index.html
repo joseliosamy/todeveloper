@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/keyframes.css">
     <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
@@ -67,13 +69,13 @@
     </section><!--about-->
 
     <section id="downloads">
-        <div class="donwloads-page mx1280 center">
+        <div class="downloads-page mx1280 center">
             <h1>Downloads dos materiais</h1>
             <div class="multi-cards">
                 <div class="card">
                     <p>De 01 a 07 de junho de 2020 houve a primeira Next Level Week. #NLW 🚀 é uma experiência online com muito conteúdo prático, desafios e hacks que ajuda o dev, a avançar para o próximo nível.</p>
                     <h3>Next Level Week - edição 1 <span>Ecoleta</span></h3>
-                    <a href="#" class="button"><i class="fa fa-external-link" aria-hidden="true"></i>Abrir</a>
+                    <a id="btn1" class="button" ><i class="fa fa-external-link" aria-hidden="true"></i >Abrir</a>
                 </div>
                 <div class="card">
                     <p>A Next Level Week 🚀 é uma experiência online com muito conteúdo prático, desafios e hacks que ajuda o dev, a avançar para o próximo nível.</p>
@@ -101,8 +103,25 @@
                     <hr>
                 </div><!--multi-tools-->
             </div><!--tools-->
-        </div><!--donwloads-page-->
-    </section><!--donwloads-->
+        </div><!--downloads-page-->
+
+        <div class="modal-downloads">
+            <div class="ecoleta modal mx1280 modal-off">
+                <h1>Next Level Week - Edição 1</h1>
+                <div class="media rc">
+                    <img src="images/ecoleta.jpg" alt="">
+                </div><!--media-->
+
+                <p>Aqui você encontrará os arquivos e links necessários para começar a desenvolver esse web site.</p>
+
+                <div class="links rc">
+                    <a href="#" class="button"><i class="fas fa-download"></i>Baixar arquivos</a>
+                    <a href="" class="button"><i class="fab fa-youtube"></i>Playlist da NLW no youtube</a>
+                </div><!--links-->
+            </div><!--modal-->
+        </div><!--modal-downloads-->
+    </section><!--downloads-->
+
 
     <footer>
         <div class="footer center fcenter mx1280">

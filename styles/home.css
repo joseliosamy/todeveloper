@@ -22,6 +22,10 @@ p{
 .landing-page h1{
     width: 500px;
 }
+.landing-page h1,
+.landing-page p{
+    animation: landingText 1s;
+}
 .rc{
     width: 400px;
     height: 400px;
@@ -33,6 +37,7 @@ p{
     margin: 0 auto;
     min-width: 250px;
     width: 90%;
+    animation: landingImg 1s;
 }
 
 /*LANDING fim*/
@@ -73,11 +78,11 @@ p{
 #downloads{
     background-color: var(--back-color3);
 }
-.donwloads-page{
+.downloads-page{
     height: 100%;
     padding: 100px 0;
 }
-.donwloads-page h1{
+.downloads-page h1{
     text-align: center;
     font-size: min(10vw, 30px);
     font-weight: 300;

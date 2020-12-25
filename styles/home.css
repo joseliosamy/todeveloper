@@ -58,7 +58,6 @@
 
 /*DOWNLOADS*/
 #downloads{
-    height: 600px;
     background-color: var(--back-color3);
 }
 .donwloads-page{
@@ -74,11 +73,12 @@
     display: flex;
     justify-content: center;
     padding-top: 70px;
+    flex-wrap: wrap;
 }
 .card{
     width: 400px;
-    height: 300px;
-    margin: 0 20px;
+    min-height: 300px;
+    margin: 25px 20px 0 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +95,7 @@
     font-weight: 300;
     font-style: italic;
 }
-.card a{
+.button{
     background-color: var(--btn-card);
     box-shadow: 1px 1px 7px #9b9b9b,
     0px 0px 1px 2px #e2e2e2 inset;
@@ -104,7 +104,65 @@
     border-radius: 5px;
     font-weight: 200;
 }
-.card a i{
+.card .button i{
     margin-right: 6px;
     text-align: center;
+}
+.tools{
+    padding-top: 70px;
+    width: 100%;
+}
+.multi-tools{
+    padding-top: 70px;
+}
+.tool-row{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.tool-row h3 span{
+    font-weight: 300;
+    font-size: 16px;
+}
+.tool-row .rc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    width: auto;
+    height: auto;
+}
+.tool-row .rc img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+.tool-row .button{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    padding: 20px 0;
+    font-weight: 400;
+}
+.tool-row .button i{
+    margin-right: 10px;
+    font-size: 30px;
+}
+footer{
+    height: 60px;
+    background-color: var(--back-color-footer);
+}
+.footer.fcenter{
+    justify-content: space-between;
+}
+.footer h5{
+    color: white;
+    font-weight: 300;
+}
+.footer .socials a{
+    color: white;
+    font-size: 22px;
+}
+.footer .socials a + a{
+    margin-left: 6px;
 }

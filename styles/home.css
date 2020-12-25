@@ -1,0 +1,110 @@
+/*LANDING*/
+#landing{
+    width: 100%;
+    height: 700px;
+}
+.landing-page{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.landing-page h1{
+    width: 500px;
+    flex-wrap: nowrap;
+}
+.rc{
+    width: 400px;
+    height: 400px;
+}
+.rc.fcenter{
+    justify-content: flex-end;
+}
+.rc img{
+    width: 90%;
+    height: 90%;
+}
+
+/*LANDING fim*/
+
+/*ABOUT*/
+#about{
+    width: 100%;
+    height: 100%;
+    background-color: var(--back-color2);
+}
+.about-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-page .box-landing{
+    width: 50%;
+    padding: 70px 0;
+}
+.about-page .rc{
+    padding: 100px 0;
+    width: 400px;
+    height: 100%;
+}
+.about-page .rc img{
+    width: 350px;
+    height: 350px;
+}
+.about-page .rc.fcenter{
+    justify-content: initial;
+}
+/*ABOUT FIM*/
+
+/*DOWNLOADS*/
+#downloads{
+    height: 600px;
+    background-color: var(--back-color3);
+}
+.donwloads-page{
+    height: 100%;
+    padding: 100px 0;
+}
+.donwloads-page h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+.multi-cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.card{
+    width: 400px;
+    height: 300px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    background-color: var(--card);
+    box-shadow: 1px 1px 7px #9b9b9b;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+.card h3 span{
+    display: block;
+    font-weight: 300;
+    font-style: italic;
+}
+.card a{
+    background-color: var(--btn-card);
+    box-shadow: 1px 1px 7px #9b9b9b,
+    0px 0px 1px 2px #e2e2e2 inset;
+    color: white;
+    padding: 7px 30px;
+    border-radius: 5px;
+    font-weight: 200;
+}
+.card a i{
+    margin-right: 6px;
+    text-align: center;
+}

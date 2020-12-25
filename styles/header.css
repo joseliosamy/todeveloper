@@ -1,0 +1,48 @@
+header{
+    height: 60px;
+    width: 100%;
+    background-color: var(--header-color);
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 100%;
+}
+.desktop{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.desktop ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-weight: 500;
+}
+.desktop ul a{
+    height: 80%;
+    padding: 0 5px;
+    display: inherit;
+    align-items: center;
+    transition: background-color 300ms, color 200ms, border-radius 100ms ease-in;
+    border-radius: 2px;
+}
+.desktop ul a:hover{
+    background-color: var(--color-font);
+    color: var(--back-color);
+    border-radius: 20px;
+}
+.desktop ul a + a{
+    margin-left: 25px;
+}
+.desktop ul ul{
+    display: none;
+}
+
+
+.mobile{
+    display: none;
+}

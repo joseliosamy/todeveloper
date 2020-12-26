@@ -27,7 +27,7 @@
 }
 .modal .scroll{
     overflow-y: auto;
-    height: 100%;
+    height: calc(100% - 42px);
 }
 .scroll::-webkit-scrollbar {
     width: 10px;
@@ -53,14 +53,14 @@
     cursor: pointer;
 }
 .modal h1{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .modal .media.rc{
     width: auto;
     height: auto;
     max-width: 100%;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .modal .media.rc img{
     width: 100%;
@@ -68,13 +68,14 @@
     border-radius: 20px;
 }
 .modal p{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .modal .links{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
+    padding-bottom: 30px;
 }
 .modal .button{
     background-color: var(--back-color);

@@ -1,13 +1,8 @@
-.modal-on{
-    display: flex;
-}
-.modal-off{
-    display: none;
-}
+
 .modal-downloads{
     width: 100vw;
     height: 100vh;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     top: 0;
@@ -28,6 +23,34 @@
     background-color: var(--back-color2);
     box-shadow: 1px 1px 7px #080808;
     text-align: center;
+    overflow-y: initial;
+}
+.modal .scroll{
+    overflow-y: auto;
+    height: 100%;
+}
+.scroll::-webkit-scrollbar {
+    width: 10px;
+    background: #fdfdfd81; 
+  }
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #08080873;
+    border-radius: 10px;
+}
+.modal-content{
+    height: 100%;
+}
+.modal .close{
+    display: block;
+    text-align: end;
+    font-size: 22px;
+}
+.modal .close i{
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
 }
 .modal h1{
     padding-bottom: 20px;
@@ -35,6 +58,8 @@
 .modal .media.rc{
     width: auto;
     height: auto;
+    max-width: 100%;
+    margin: 0 auto;
     padding-bottom: 20px;
 }
 .modal .media.rc img{

@@ -108,6 +108,15 @@
     .rc img{
         animation: landingImgMobile 1s;
     }
+    .modal h1{
+        font-size: min(8vw, 20px);
+    }
+    .modal .button{
+        padding: 4px 10px;
+    }
+    .modal a{
+        font-size: min(6vw, 14px)
+    }
     .footer{
         font-size: min(5vw,12px);
     }
@@ -125,6 +134,18 @@
     .landing-page h1{
         width: 100%;
     }
+    .modal .links{
+        flex-direction: column;
+    }
+}
+@media(max-width:340px){
+    .modal a{
+        font-size: min(5vw,12px);
+    }
+    .modal p{
+        font-size: min(5vw,12px);
+    }
+
 }
 @media(max-width:326px){
     .about-page .rc img{
@@ -137,4 +158,3 @@
         font-size: min(7vw, 10px);
     }
 }
-

@@ -16,7 +16,34 @@ $(function(){
             listaMenu.slideUp();
         }
     })
+    // modais
+        var modalClose = $('.modal')
+        var modalPage = $('.modal-downloads');
+        //ecoleta
+        var modalEco = $('.eco');
+        //proffy
+        var modalProff = $('.proff');
+        //happy
+        var modalHappy = $('.happy');
+    $('.btnEco').click(()=>{
+            modalPage.fadeIn();
+            modalEco.fadeIn();
+    })
+    //proffy
+    $('.btnProff').click(()=>{
+        modalPage.fadeIn();
+        modalProff.fadeIn();
+    })
+    $('.btnHappy').click(()=>{
+        modalPage.fadeIn();
+        modalHappy.fadeIn();
+    })
+
+    $('.close').click(()=>{
+        modalPage.fadeOut();
+        modalClose.fadeOut()
+    })
+    $
 })
 
-    
 

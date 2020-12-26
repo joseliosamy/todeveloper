@@ -46,11 +46,17 @@
     font-size: 22px;
 }
 .modal .close i{
-    background-color:rgba(0, 0, 0, 0.7);
+    background-color:#000000b3;
     padding: 10px;
     border-radius: 10px;
     color: white;
     cursor: pointer;
+    transition: 200ms;
+    margin-bottom: 10px;
+}
+.modal .close i:hover{
+    background-color: #000000d2;
+    color: #d45241c0;
 }
 .modal h1{
     padding-bottom: 10px;
@@ -77,10 +83,29 @@
     height: auto;
     padding-bottom: 30px;
 }
+.modal .pre-link{
+    background-color: #4d4d4d52;
+    margin: 10px 0;
+    padding: 3px 0;
+    box-shadow: 1px 1px 7px #5a5a5a;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
 .modal .button{
     background-color: var(--back-color);
     border-radius: 10px;
     margin-bottom: 5px;
+    transition: background-color 200ms;
+}
+.modal .button:hover{
+    background-color: var(--btn-color2);
+}
+.modal .button:active{
+    background-color: var(--btn-card);
+    color: white;
 }
 .modal a{
     color: var(--color-font);

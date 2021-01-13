@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/modal.css">
     <link rel="stylesheet" href="styles/keyframes.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>  
 </head>
 <body>
     <header>
@@ -19,14 +21,9 @@
                 <div class="desktop">
                     <a href="" class="title"><h2>To Developer</h2></a>
                     <ul>
-                        <a href="#"><li>Início</li></a>
-                        <a href="#about"><li>Sobre</li></a>
-                        <a href="#downloads"><li>Downloads</li>
-                        <ul><!--ul 1-->
-                            <a href=""><li>NWL #1</li></a>
-                            <a href="#"><li>NWL #2</li></a>
-                            <a href="#"><li>NWL #3</li></a>
-                        </ul></a><!--ul 2-->
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#downloads">Downloads</a></li><!--ul 2-->
                     </ul>
                 </div><!--desktop-->
 
@@ -34,9 +31,9 @@
                     <a href="#" class="title"><h2>To Developer</h2></a>
                     <i class="hamburguer fas fa-bars"></i>
                     <ul style="display:none;">
-                        <a href="#"><li>Início</li></a>
-                        <a href="#about"><li>Sobre</li></a>
-                        <a href="#downloads"><li>Downloads</li></a><!--ul 2-->
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#downloads">Downloads</a></li>
                     </ul>
                 </div><!--mobile-->
             </nav><!--nav-->
@@ -93,15 +90,37 @@
             </div><!--multi-cards-->
 
             <div class="tools">
-                <h1>Ferramentas</h1>
+                <h1>Ferramentas <i class="fa fa-cogs" aria-hidden="true"></i></h1>
                 <div class="multi-tools">
                     <div class="tool-row">
-                        <h1>VSCode</h1>
-                        <h3>VSCode - <span> O Visual Studio Code é um editor de texto multiplataforma disponibilizado pela Microsoft para o desenvolvimento de aplicações web, com suporte principalmente a ASP.NET 5 e Node.js. Conhecer essa ferramenta é importante para os desenvolvedores que pretendem trabalhar em ambientes multiplataforma, por exemplo, seguindo a tendência de desenvolvimento web em ambiente Mac e Linux, ao mesmo tempo em que mantém o projeto compatível com Windows. Além de explorar as principais funcionalidades do editor, veremos como criar uma aplicação ASP.NET 5 e realizar seu deploy no Azure usando o Git, sem a necessidade do Visual Studio.</span></h3>
+                        <h1>VSCode <img src="images/vscode.svg" alt="Vscode"></h1>
+                        <p> O Visual Studio Code é um editor de texto multiplataforma disponibilizado pela Microsoft para o desenvolvimento de aplicações web, com suporte principalmente a ASP.NET 5 e Node.js. Conhecer essa ferramenta é importante para os desenvolvedores que pretendem trabalhar em ambientes multiplataforma, por exemplo, seguindo a tendência de desenvolvimento web em ambiente Mac e Linux, ao mesmo tempo em que mantém o projeto compatível com Windows. Além de explorar as principais funcionalidades do editor, veremos como criar uma aplicação ASP.NET 5 e realizar seu deploy no Azure usando o Git, sem a necessidade do Visual Studio.</p>
                         <div class="rc">
                             <img src="images/vscode.jpg" alt="Vscode">
                         </div><!--rc-->        
-                        <a href="https://code.visualstudio.com/download" class="button"><i class="fas fa-download"></i>Download</a>
+                        <small>Clique para baixar <i class="fa fa-arrow-down" aria-hidden="true"></i></small>
+                        <a class="button" target="_blank" href="https://code.visualstudio.com/download"><i class="fas fa-download"></i>Download</a>
+                        <div class="socials">
+                            <a href="https://github.com/joseliosamy" target="_blank"><i class="fa fa-github ic-anima-1" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100012304504748" target="_blank"><i class="fa fa-facebook ic-anima-2" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/_joseliot/"target="_blank"><i class="fa fa-instagram ic-anima-3" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/joseliosamy/" target="_blank"><i class="fa fa-linkedin ic-anima-4" aria-hidden="true"></i></a>
+                        </div><!--socials-->
+                    </div><!--tool-row-->
+                    <div class="tool-row">
+                        <h1>Node.js <i class='bx bxl-nodejs'></i></h1>
+                        <p> Node.js trata-se de um software open-source, cross-platform, e de um runtime de JavaScript que execute código de JavaScript a nível backend e frontend (dependendo apenas das bibliotecas e dos frameworks usados para esse mesmo fim).</p>
+                        <div class="rc">
+                            <img src="images/node.jpg" alt="Node.JS">
+                        </div><!--rc-->        
+                        <small>Clique para baixar <i class="fa fa-arrow-down" aria-hidden="true"></i></small>
+                        <a class="button" target="_blank" href="https://nodejs.org/en/download/"><i class="fas fa-download"></i>Download</a>
+                        <div class="socials">
+                            <a href="https://github.com/joseliosamy" target="_blank"><i class="fa fa-github ic-anima-1" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100012304504748" target="_blank"><i class="fa fa-facebook ic-anima-2" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/_joseliot/"target="_blank"><i class="fa fa-instagram ic-anima-3" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/joseliosamy/" target="_blank"><i class="fa fa-linkedin ic-anima-4" aria-hidden="true"></i></a>
+                        </div><!--socials-->
                     </div><!--tool-row-->
                     <hr>
                 </div><!--multi-tools-->
@@ -175,16 +194,18 @@
         <div class="footer center fcenter mx1280">
             <h5>Josélio Samy - Todos os direitos reservados.</h5>
             <div class="socials">
-                <a href="#"><i class="fa fa-github ic-anima-1" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook ic-anima-2" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram ic-anima-3" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin ic-anima-4" aria-hidden="true"></i></a>
-            </div>
+                <a href="https://github.com/joseliosamy" target="_blank"><i class="fa fa-github ic-anima-1" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100012304504748" target="_blank"><i class="fa fa-facebook ic-anima-2" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/_joseliot/"target="_blank"><i class="fa fa-instagram ic-anima-3" aria-hidden="true"></i></a>
+                <a href="https://www.linkedinn.com/in/joseliosamy/" target="_blank"><i class="fa fa-linkedin ic-anima-4" aria-hidden="true"></i></a>
+            </div><!--socials-->
         </div>
     </footer>
     <script src="https://use.fontawesome.com/6811180638.js"></script>
     <script src="https://kit.fontawesome.com/05552c5881.js" crossorigin="anonymous"></script> 
     <script src="scripts/jquery.js"></script>
     <script src="scripts/home.js"></script>
+    <script src="scripts/scrollReveal.js"></script>
+
 </body>
 </html>

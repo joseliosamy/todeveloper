@@ -137,8 +137,17 @@
     .landing-page h1{
         width: 100%;
     }
+    .tool-row .rc img{
+        width: 100%;
+    }
+    .tool-row .button{
+        width: 100%;
+    }
     .modal .links{
         flex-direction: column;
+    }
+    .center{
+        width: 90%;
     }
 }
 @media(max-width:340px){

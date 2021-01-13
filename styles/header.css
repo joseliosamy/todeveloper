@@ -24,6 +24,7 @@ nav{
     display: flex;
     height: 100%;
     align-items: center;
+    justify-content: center;
     font-weight: 500;
 }
 .desktop ul a{
@@ -31,13 +32,22 @@ nav{
     padding: 0 5px;
     display: inherit;
     align-items: center;
-    transition: background-color 300ms, color 200ms, border-radius 100ms ease-in;
     border-radius: 2px;
+    position: relative;
 }
-.desktop ul a:hover{
-    background-color: var(--color-font);
-    color: var(--back-color);
-    border-radius: 20px;
+.desktop ul a::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 0;
+    transition: 200ms;
+    background-color: #24293A;
+}
+.desktop ul a:hover::after{
+    width: 100%;
+    height: 2px;
 }
 .desktop ul a + a{
     margin-left: 25px;
@@ -46,5 +56,6 @@ nav{
     display: none;
 }
 .mobile{
+    z-index: 100;
     display: none;
 }

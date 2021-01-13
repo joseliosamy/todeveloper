@@ -2,7 +2,7 @@ const srTop = ScrollReveal({
     origin: 'top',
     distance: '100px',
     duration: 2000,
-    reset: true
+    reset: false
 });
 
 srTop.reveal('.box-landing');

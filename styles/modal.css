@@ -90,9 +90,35 @@
     box-shadow: 1px 1px 7px #5a5a5a;
     border-radius: 5px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.modal .pre-link a{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal .pre-link .instruction{
+    width: 90%;
+    margin: 10px 0;
+    text-align: center;
+}
+.modal .pre-link .instruction a{
+    text-decoration: underline;
+    color: var(--color-link);
+    width: 100%;
+    transition: 100ms;
+    margin: 5px 0;
+}
+.modal .pre-link .instruction a:hover{
+    color: var(--color-link-hover);
+}
+.modal .pre-link .instruction a::before{
+    content: "\f0c1";
+    font-family: FontAwesome;
+    margin-right: 5px;
 }
 .modal .button{
     background-color: var(--back-color);

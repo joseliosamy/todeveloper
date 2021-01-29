@@ -120,6 +120,9 @@
     font-family: FontAwesome;
     margin-right: 5px;
 }
+.cosmos-elasticMedia{
+    max-width: 100%;
+}
 .modal .button{
     background-color: var(--back-color);
     border-radius: 10px;

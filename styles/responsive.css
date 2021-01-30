@@ -87,10 +87,10 @@
     .landing-page h1{
         width: 100%;
     }
-    .tool-row .rc img{
+    .download-row .rc img{
         width: 100%;
     }
-    .tool-row .button{
+    .download-row .button{
         width: 100%;
     }
     .modal .links{
@@ -115,7 +115,7 @@
         height: 70%;
         margin: 0 auto;
     }
-    .tool-row .button{
+    .download-row .button{
         padding: 7% 0;
         font-size: min(7vw, 10px);
     }

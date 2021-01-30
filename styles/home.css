@@ -70,15 +70,15 @@ p{
 }
 /*ABOUT FIM*/
 
-/*DOWNLOADS*/
-#downloads{
+/*events*/
+#events{
     background-color: var(--back-color3);
 }
-.downloads-page{
+.events-page{
     height: 100%;
     padding: 100px 0;
 }
-.downloads-page h1{
+.events-page h1{
     text-align: center;
     font-size: min(10vw, 30px);
     font-weight: 300;
@@ -134,35 +134,35 @@ p{
     margin-right: 6px;
     text-align: center;
 }
-.tools{
+#downloads{
     padding-top: 70px;
     width: 100%;
 }
-.multi-tools{
+.multi-downloads{
     padding-top: 70px;
 }
-.tool-row{
+.download-row{
     background-color: white;
     border-radius: 10px;
     padding: 20px 20px 40px 20px;
     margin-bottom: 15px;
 }
-.tool-row h1{
+.download-row h1{
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #9b9b9b69;
     margin-bottom: 10px;
 }
-.tool-row h1 img{
+.download-row h1 img{
     margin-left: 10px;
     width: min(10vw, 30px);
 }
-.tool-row p{
+.download-row p{
     font-weight: 300;
     font-size: min(6vw, 16px);
 }
-.tool-row .rc{
+.download-row .rc{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,7 +170,7 @@ p{
     width: auto;
     height: auto;
 }
-.tool-row .rc img{
+.download-row .rc img{
     max-width: 100%;
     min-width: 80%;
     width: 80%;
@@ -178,12 +178,12 @@ p{
     border-radius: 10px;
     box-shadow: 1px 1px 4px 1px #808080;
 }
-.tool-row small{
+.download-row small{
     display: block;
     margin-bottom: 5px;
     text-align: center;
 }
-.tool-row .button{
+.download-row .button{
     width: 40%;
     height: 60px;
     display: flex;
@@ -196,11 +196,11 @@ p{
     font-size: 100%;
     margin-bottom: 20px;
 }
-.tool-row .button i{
+.download-row .button i{
     margin-right: 10px;
     font-size: 1fr;
 }
-.tool-row .socials{
+.download-row .socials{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -209,7 +209,7 @@ p{
     position: relative;
     margin: 0 auto;
 }
-.tool-row .socials::before{
+.download-row .socials::before{
     content: "Siga!";
     font-size: 14px;
     color: #24293A;
@@ -217,10 +217,10 @@ p{
     position: absolute;
     top: -10px;
 }
-.tool-row .socials a{
+.download-row .socials a{
     margin: 5px;
 }
-.tool-row .socials a:hover{
+.download-row .socials a:hover{
      color: #757a8d;
      transition: 200ms;
 }

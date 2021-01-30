@@ -26,6 +26,9 @@
     }
 }
 @media(max-width:840px){
+    #landing{
+        padding-top: 60px;
+    }
     .landing-page{
         height: auto;
         display: flex;
@@ -33,7 +36,7 @@
         align-items: center;
         margin-top: 60px;
     }
-        .landing-page .rc{
+    .landing-page .rc{
         justify-content: center;
         margin: 0 auto 60px auto;
         grid-area: imagem;
@@ -54,59 +57,6 @@
 @media(max-width:650px){
     .desktop{
         display: none;
-    }
-    .mobile{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-    }
-    .mobile i{
-        font-size: 24px;
-        cursor: pointer;
-    }
-    .mobile ul{
-        width: calc(100vw - 20px);
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: min(5vw, 25px);
-        position: absolute;
-        top: 60px;
-        right: 50%;
-        transform: translateX(50%);
-        background-color: var(--back-color);
-        box-shadow: 1px 1px 7px #9b9b9b;
-    }
-    .mobile ul a{
-        width: 60%;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 60px;
-        text-align: center;
-        box-shadow: 1px 1px 3px #9b9b9b;
-        margin-bottom: 5px;
-        font-weight: 300;
-        transition: 200ms;
-    }
-    .mobile ul a:hover{
-        background-color: var(--back-color2);
-    }
-    .mobile ul a:active{
-        background-color: var(--back-color-footer);
-        color: #fff;
-    }
-    .mobile ul ul{
-        display: none;
-    }
-    .mobile .rc img{
-        animation: landingImgMobile 1s;
     }
     .modal{
         width: 80%;

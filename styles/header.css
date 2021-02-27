@@ -30,33 +30,36 @@ nav{
     justify-content: center;
     font-weight: 500;
 }
+.desktop ul li{
+    display: flex;
+    justify-content: center;
+}
 .desktop ul a{
     height: 80%;
     padding: 0 5px;
+    margin: 0 2px;
     display: inherit;
     align-items: center;
+    justify-content: center;
     border-radius: 2px;
     position: relative;
+    text-align: center;
 }
-.desktop ul a::after{
+.desktop ul a:hover{
+    color: #36477e;
+}
+.desktop ul a::before{
     content: "";
     position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 0;
-    height: 0;
+    bottom: -12px;
+    width: 0%;
+    height: 2px;
     transition: 200ms;
-    background-color: #24293A;
+    background-color: #36477e;
 }
-.desktop ul a:hover::after{
+.desktop ul a:hover::before{
     width: 100%;
     height: 2px;
-}
-.desktop ul a + a{
-    margin-left: 25px;
-}
-.desktop ul ul{
-    display: none;
 }
 .mobile{
     z-index: 100;

@@ -29,6 +29,8 @@ $(function(){
         var modalMoveit = $('.moveit');
         //node
         var modalNode = $('.node');
+        //node
+        var modalElixir = $('.elixir');
         //alura
         var modalImersa = $('.imersaalura');
 
@@ -56,6 +58,11 @@ $(function(){
     $('.btnNode').click(()=>{
         modalPage.fadeIn();
         modalNode.fadeIn();
+    })
+    //node
+    $('.btnElixir').click(()=>{
+        modalPage.fadeIn();
+        modalElixir.fadeIn();
     })
     //imersão
     $('.btnAlura2').click(()=>{

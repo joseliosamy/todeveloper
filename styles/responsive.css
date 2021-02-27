@@ -44,8 +44,7 @@
         height: auto;
     }
     .landing-page .rc img{
-        max-width: 367px;
-        min-width: 100%;    
+        width: 100%;    
     }
     .box-landing{
         text-align: center;
@@ -84,8 +83,16 @@
     }
 }
 @media(max-width:530px){
-    .landing-page h1{
+    .landing-page .box-landing h1{
         width: 100%;
+        font-size: min(10vw, 2rem);
+    }
+    .landing-page .rc{
+        width: 100%;
+        margin: 0 0 40px 0;
+    }
+    .landing-page .rc img{
+        min-width: 100%;
     }
     .download-row .rc img{
         width: 100%;

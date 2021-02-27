@@ -25,6 +25,10 @@ $(function(){
         var modalProff = $('.proff');
         //happy
         var modalHappy = $('.happy');
+        //moveit
+        var modalMoveit = $('.moveit');
+        //node
+        var modalNode = $('.node');
         //alura
         var modalImersa = $('.imersaalura');
 
@@ -42,6 +46,16 @@ $(function(){
     $('.btnHappy').click(()=>{
         modalPage.fadeIn();
         modalHappy.fadeIn();
+    })
+    //moveit
+    $('.btnMoveit').click(()=>{
+        modalPage.fadeIn();
+        modalMoveit.fadeIn();
+    })
+    //node
+    $('.btnNode').click(()=>{
+        modalPage.fadeIn();
+        modalNode.fadeIn();
     })
     //imersão
     $('.btnAlura2').click(()=>{

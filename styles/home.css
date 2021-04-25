@@ -113,9 +113,11 @@ p{
     box-shadow: 0px 0px 4px #24293A,
     0px 0px 0px 1px #acacac inset;
 }
-.card:nth-child(4):after,
-.card:nth-child(5):after,
-.card:nth-child(6):after{
+.card:nth-child(7):after,
+.card:nth-child(8):after,
+.card:nth-child(9):after,
+.card:nth-child(10):after,
+.card:nth-child(11):after{
     content: "New";
     position: absolute;
     top: 6px;
@@ -127,9 +129,11 @@ p{
     transform: rotate(45deg);
     transition: 200ms;
 }
-.card:hover:nth-child(4):after,
-.card:hover:nth-child(5):after,
-.card:hover:nth-child(6):after{
+.card:hover:nth-child(7):after,
+.card:hover:nth-child(8):after,
+.card:hover:nth-child(9):after,
+.card:hover:nth-child(10):after,
+.card:hover:nth-child(11):after{
     background-color: red;
     color: white;
     border-color: white;

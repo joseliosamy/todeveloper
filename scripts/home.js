@@ -29,8 +29,18 @@ $(function(){
         var modalMoveit = $('.moveit');
         //node
         var modalNode = $('.node');
-        //node
+        //elixir
         var modalElixir = $('.elixir');
+        //react5
+        var modalReact5 = $('.react5');
+        //react native5
+        var modalRNative5 = $('.reactNative5');
+        //node5
+        var modalNode5 = $('.node5');
+        //node5
+        var modalElixir5 = $('.elixir5');
+        //node5
+        var modalFlutter5 = $('.flutter5');
         //alura
         var modalImersa = $('.imersaalura');
 
@@ -59,10 +69,34 @@ $(function(){
         modalPage.fadeIn();
         modalNode.fadeIn();
     })
-    //node
+    //elixir
     $('.btnElixir').click(()=>{
         modalPage.fadeIn();
         modalElixir.fadeIn();
+    })
+    //react 5
+    $('.btnPodcast').click(()=>{
+        modalPage.fadeIn();
+        modalReact5.fadeIn();
+    })
+    //react native 5
+    $('.btnRNative5').click(()=>{
+        modalPage.fadeIn();
+        modalRNative5.fadeIn();
+    })
+    //node 5
+    $('.btnNode5').click(()=>{
+        modalPage.fadeIn();
+        modalNode5.fadeIn();
+    })
+    //elixir 5
+    $('.btnElixir5').click(()=>{
+        modalPage.fadeIn();
+        modalElixir5.fadeIn();
+    })
+    $('.btnFlutter5').click(()=>{
+        modalPage.fadeIn();
+        modalFlutter5.fadeIn();
     })
     //imersão
     $('.btnAlura2').click(()=>{

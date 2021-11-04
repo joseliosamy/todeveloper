@@ -23,7 +23,7 @@ function Routes() {
 
       <Route path="/ferramentas">Ferramentas</Route>
 
-      <Route path="*">Erro r404</Route>
+      <Route path="*">Erro 404</Route>
     </Switch>
   );
 }

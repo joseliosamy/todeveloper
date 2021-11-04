@@ -1,15 +1,24 @@
-import React from 'react';
-import styled from 'styled-components';
+// Utilities
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './Routes';
+import { Site, Delimiters } from './components/MainComponets';
 
-const Site = styled.div`
-  width: 100%;
-  height: 100vh;
-  background-color: #101010;
-  color: #d0d0d0;
-`;
+// Partial components
+import Header from './components/partials/Header';
+
+// pages
 
 function App() {
-  return <Site></Site>;
+  return (
+    <BrowserRouter>
+      <Site>
+        <Header />
+        <Delimiters>
+          <Routes />
+        </Delimiters>
+      </Site>
+    </BrowserRouter>
+  );
 }
 
 export default App;

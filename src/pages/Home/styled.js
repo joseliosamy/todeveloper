@@ -6,6 +6,7 @@ export const HomeArea = styled.div`
   align-items: center;
   justify-content: end;
   flex-direction: column;
+  animation: fade_in 0.7s ease-in-out;
   h1 {
     font-size: 4rem;
     margin-bottom: 15px;

@@ -10,9 +10,22 @@
 html{
   font-family: 'Manrope', sans-serif;
 }
+body{
+  overflow: hidden;
+}
 a{
   text-decoration: none;
 }
 ul{
   list-style: none;
+}
+@keyframes fade_in{
+  from{
+    transform: scale(1.1,1.1);
+    opacity: 0;
+  }
+  to{
+    transform: scale(1,1);
+    opacity: 1;
+  }
 }
